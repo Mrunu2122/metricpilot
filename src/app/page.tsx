@@ -14,9 +14,6 @@ import {
   ShieldCheck,
   RefreshCw,
   Cpu,
-  AlertCircle,
-  ToggleLeft,
-  ToggleRight,
   Zap,
 } from 'lucide-react';
 
@@ -38,7 +35,7 @@ export default function Home() {
   const [geminiConfigured, setGeminiConfigured] = useState<boolean | null>(null);
   const [configuredModel, setConfiguredModel] = useState<string>('gemini-3.5-flash-lite');
 
-  // Accurate Dashboard Statistics (Initialized to 0 / N/A, updated only upon actual runs)
+  // Dashboard Statistics
   const [stats, setStats] = useState<{
     totalExecutions: number;
     successfulExecutions: number;
@@ -55,7 +52,7 @@ export default function Home() {
     durations: [],
   });
 
-  // Fetch server configuration status (to see if GEMINI_API_KEY is configured on the backend)
+  // Fetch server configuration status
   useEffect(() => {
     fetch('/api/config')
       .then((res) => res.json())
@@ -67,10 +64,12 @@ export default function Home() {
   }, []);
 
   const handleExecute = async (inputQuery?: string) => {
-    const q = inputQuery || query;
-    if (!q.trim() || isLoading) return;
+    const q = (inputQuery !== undefined ? inputQuery : query).trim();
+    if (!q || isLoading) return;
 
     setIsLoading(true);
+    // Switch to Analysis tab immediately so user sees the report load
+    setActiveTab('ANALYSIS');
 
     try {
       const res = await fetch('/api/orchestrate', {
@@ -81,7 +80,7 @@ export default function Home() {
       const data: OrchestrationResult = await res.json();
       setResult(data);
 
-      const isSuccess = data.status === 'SUCCESS';
+      const isSuccess = data.status === 'SUCCESS' || data.status === 'PARTIAL_SAFE_FALLBACK';
       const isMock = !!data.isMockMode;
 
       setStats((prev) => ({
@@ -90,7 +89,7 @@ export default function Home() {
         failedExecutions: isSuccess ? prev.failedExecutions : prev.failedExecutions + 1,
         mockExecutions: isMock ? prev.mockExecutions + 1 : prev.mockExecutions,
         liveExecutions: isMock ? prev.liveExecutions : prev.liveExecutions + 1,
-        durations: [...prev.durations, data.totalDurationMs],
+        durations: [...prev.durations, data.totalDurationMs || 0],
       }));
     } catch (err) {
       console.error('Execution failure', err);
@@ -254,7 +253,7 @@ export default function Home() {
           </span>
         </div>
 
-        {/* Phase 2: Accurate Dashboard Metric KPI Bar */}
+        {/* Dashboard Metric KPI Bar */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-[#0f172a]/80 border border-slate-800 rounded-xl p-4 shadow-lg">
             <span className="text-[11px] font-mono uppercase tracking-wider text-slate-400">Total Executions</span>
@@ -366,6 +365,7 @@ export default function Home() {
               {EXAMPLE_QUERIES.map((q, idx) => (
                 <button
                   key={idx}
+                  type="button"
                   onClick={() => {
                     setQuery(q);
                     handleExecute(q);
