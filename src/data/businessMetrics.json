@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "datasetId": "metricpilot_synthetic_fy2024",
+    "description": "Synthetic multi-channel e-commerce business activity generated for technical interview demonstration. Strictly synthetic; not real company data.",
+    "isSynthetic": true,
+    "currency": "USD",
+    "periodRange": {
+      "start": "2024-01",
+      "end": "2024-12"
+    },
+    "createdFor": "MetricPilot Agentic Orchestration System"
+  },
+  "metrics": [
+    {
+      "month": "2024-01",
+      "label": "January 2024",
+      "revenue": 520000,
+      "orders": 6500,
+      "conversionRate": 3.2,
+      "marketingSpend": 110000,
+      "averageOrderValue": 80.0,
+      "customerAcquisitionCost": 44.0,
+      "notes": "Post-holiday normalization. Strong email engagement.",
+      "channels": {
+        "organic_search": { "spend": 12000, "newCustomers": 750, "revenue": 145000, "orders": 1812, "conversionRate": 3.8, "cac": 16.0, "roas": 12.08 },
+        "paid_search": { "spend": 42000, "newCustomers": 800, "revenue": 168000, "orders": 2100, "conversionRate": 3.4, "cac": 52.5, "roas": 4.0 },
+        "paid_social": { "spend": 38000, "newCustomers": 600, "revenue": 114000, "orders": 1425, "conversionRate": 2.5, "cac": 63.33, "roas": 3.0 },
+        "email_marketing": { "spend": 8000, "newCustomers": 250, "revenue": 72000, "orders": 900, "conversionRate": 4.5, "cac": 32.0, "roas": 9.0 },
+        "affiliate": { "spend": 10000, "newCustomers": 100, "revenue": 21000, "orders": 263, "conversionRate": 2.1, "cac": 100.0, "roas": 2.1 }
+      }
+    },
+    {
+      "month": "2024-02",
+      "label": "February 2024",
+      "revenue": 545000,
+      "orders": 6730,
+      "conversionRate": 3.3,
+      "marketingSpend": 115000,
+      "averageOrderValue": 80.98,
+      "customerAcquisitionCost": 43.4,
+      "notes": "Valentine's campaign bump in Paid Social.",
+      "channels": {
+        "organic_search": { "spend": 12000, "newCustomers": 770, "revenue": 150000, "orders": 1852, "conversionRate": 3.9, "cac": 15.58, "roas": 12.5 },
+        "paid_search": { "spend": 43000, "newCustomers": 820, "revenue": 172000, "orders": 2123, "conversionRate": 3.5, "cac": 52.44, "roas": 4.0 },
+        "paid_social": { "spend": 42000, "newCustomers": 710, "revenue": 128000, "orders": 1580, "conversionRate": 2.7, "cac": 59.15, "roas": 3.05 },
+        "email_marketing": { "spend": 8000, "newCustomers": 240, "revenue": 73000, "orders": 901, "conversionRate": 4.6, "cac": 33.33, "roas": 9.13 },
+        "affiliate": { "spend": 10000, "newCustomers": 110, "revenue": 22000, "orders": 274, "conversionRate": 2.2, "cac": 90.91, "roas": 2.2 }
+      }
+    },
+    {
+      "month": "2024-03",
+      "label": "March 2024",
+      "revenue": 590000,
+      "orders": 7100,
+      "conversionRate": 3.5,
+      "marketingSpend": 122000,
+      "averageOrderValue": 83.1,
+      "customerAcquisitionCost": 42.07,
+      "notes": "Spring collection release drove high conversion.",
+      "channels": {
+        "organic_search": { "spend": 13000, "newCustomers": 840, "revenue": 165000, "orders": 1985, "conversionRate": 4.1, "cac": 15.48, "roas": 12.69 },
+        "paid_search": { "spend": 45000, "newCustomers": 890, "revenue": 185000, "orders": 2226, "conversionRate": 3.7, "cac": 50.56, "roas": 4.11 },
+        "paid_social": { "spend": 45000, "newCustomers": 780, "revenue": 142000, "orders": 1709, "conversionRate": 2.9, "cac": 57.69, "roas": 3.16 },
+        "email_marketing": { "spend": 8500, "newCustomers": 260, "revenue": 74000, "orders": 890, "conversionRate": 4.7, "cac": 32.69, "roas": 8.71 },
+        "affiliate": { "spend": 10500, "newCustomers": 130, "revenue": 24000, "orders": 290, "conversionRate": 2.4, "cac": 80.77, "roas": 2.29 }
+      }
+    },
+    {
+      "month": "2024-04",
+      "label": "April 2024",
+      "revenue": 575000,
+      "orders": 6920,
+      "conversionRate": 3.4,
+      "marketingSpend": 124000,
+      "averageOrderValue": 83.09,
+      "customerAcquisitionCost": 45.26,
+      "notes": "Slight ad fatigue observed in Paid Social.",
+      "channels": {
+        "organic_search": { "spend": 13000, "newCustomers": 810, "revenue": 162000, "orders": 1950, "conversionRate": 4.0, "cac": 16.05, "roas": 12.46 },
+        "paid_search": { "spend": 47000, "newCustomers": 870, "revenue": 183000, "orders": 2202, "conversionRate": 3.6, "cac": 54.02, "roas": 3.89 },
+        "paid_social": { "spend": 45000, "newCustomers": 690, "revenue": 131000, "orders": 1576, "conversionRate": 2.6, "cac": 65.22, "roas": 2.91 },
+        "email_marketing": { "spend": 8500, "newCustomers": 250, "revenue": 75000, "orders": 903, "conversionRate": 4.7, "cac": 34.0, "roas": 8.82 },
+        "affiliate": { "spend": 10500, "newCustomers": 120, "revenue": 24000, "orders": 289, "conversionRate": 2.3, "cac": 87.5, "roas": 2.29 }
+      }
+    },
+    {
+      "month": "2024-05",
+      "label": "May 2024",
+      "revenue": 610000,
+      "orders": 7250,
+      "conversionRate": 3.6,
+      "marketingSpend": 128000,
+      "averageOrderValue": 84.14,
+      "customerAcquisitionCost": 43.1,
+      "notes": "Memorial day promotion strong performance.",
+      "channels": {
+        "organic_search": { "spend": 14000, "newCustomers": 880, "revenue": 175000, "orders": 2080, "conversionRate": 4.2, "cac": 15.91, "roas": 12.5 },
+        "paid_search": { "spend": 48000, "newCustomers": 940, "revenue": 195000, "orders": 2317, "conversionRate": 3.8, "cac": 51.06, "roas": 4.06 },
+        "paid_social": { "spend": 46000, "newCustomers": 760, "revenue": 141000, "orders": 1675, "conversionRate": 2.8, "cac": 60.53, "roas": 3.07 },
+        "email_marketing": { "spend": 9000, "newCustomers": 260, "revenue": 74000, "orders": 879, "conversionRate": 4.7, "cac": 34.62, "roas": 8.22 },
+        "affiliate": { "spend": 11000, "newCustomers": 130, "revenue": 25000, "orders": 299, "conversionRate": 2.4, "cac": 84.62, "roas": 2.27 }
+      }
+    },
+    {
+      "month": "2024-06",
+      "label": "June 2024",
+      "revenue": 640000,
+      "orders": 7530,
+      "conversionRate": 3.7,
+      "marketingSpend": 135000,
+      "averageOrderValue": 84.99,
+      "customerAcquisitionCost": 43.83,
+      "notes": "Mid-year summer sale peak.",
+      "channels": {
+        "organic_search": { "spend": 14000, "newCustomers": 920, "revenue": 185000, "orders": 2177, "conversionRate": 4.3, "cac": 15.22, "roas": 13.21 },
+        "paid_search": { "spend": 52000, "newCustomers": 1000, "revenue": 208000, "orders": 2447, "conversionRate": 3.9, "cac": 52.0, "roas": 4.0 },
+        "paid_social": { "spend": 48000, "newCustomers": 760, "revenue": 144000, "orders": 1694, "conversionRate": 2.8, "cac": 63.16, "roas": 3.0 },
+        "email_marketing": { "spend": 9500, "newCustomers": 270, "revenue": 76000, "orders": 894, "conversionRate": 4.8, "cac": 35.19, "roas": 8.0 },
+        "affiliate": { "spend": 11500, "newCustomers": 130, "revenue": 27000, "orders": 318, "conversionRate": 2.5, "cac": 88.46, "roas": 2.35 }
+      }
+    },
+    {
+      "month": "2024-07",
+      "label": "July 2024",
+      "revenue": 580000,
+      "orders": 7000,
+      "conversionRate": 3.3,
+      "marketingSpend": 140000,
+      "averageOrderValue": 82.86,
+      "customerAcquisitionCost": 53.85,
+      "notes": "CRITICAL ANOMALY: Paid Social ad platform algorithm change caused CPMs to surge 45% while conversion rate tanked to 1.8%.",
+      "channels": {
+        "organic_search": { "spend": 14500, "newCustomers": 890, "revenue": 178000, "orders": 2148, "conversionRate": 4.1, "cac": 16.29, "roas": 12.28 },
+        "paid_search": { "spend": 53000, "newCustomers": 980, "revenue": 204000, "orders": 2462, "conversionRate": 3.8, "cac": 54.08, "roas": 3.85 },
+        "paid_social": { "spend": 51000, "newCustomers": 360, "revenue": 95000, "orders": 1146, "conversionRate": 1.8, "cac": 141.67, "roas": 1.86 },
+        "email_marketing": { "spend": 9500, "newCustomers": 250, "revenue": 77000, "orders": 929, "conversionRate": 4.6, "cac": 38.0, "roas": 8.11 },
+        "affiliate": { "spend": 12000, "newCustomers": 120, "revenue": 26000, "orders": 315, "conversionRate": 2.3, "cac": 100.0, "roas": 2.17 }
+      }
+    },
+    {
+      "month": "2024-08",
+      "label": "August 2024",
+      "revenue": 605000,
+      "orders": 7180,
+      "conversionRate": 3.4,
+      "marketingSpend": 136000,
+      "averageOrderValue": 84.26,
+      "customerAcquisitionCost": 47.72,
+      "notes": "Paid social budget re-allocated toward high-performing Paid Search.",
+      "channels": {
+        "organic_search": { "spend": 14500, "newCustomers": 905, "revenue": 181000, "orders": 2148, "conversionRate": 4.1, "cac": 16.02, "roas": 12.48 },
+        "paid_search": { "spend": 60000, "newCustomers": 1120, "revenue": 226000, "orders": 2682, "conversionRate": 3.9, "cac": 53.57, "roas": 3.77 },
+        "paid_social": { "spend": 39000, "newCustomers": 450, "revenue": 95000, "orders": 1128, "conversionRate": 2.1, "cac": 86.67, "roas": 2.44 },
+        "email_marketing": { "spend": 10500, "newCustomers": 255, "revenue": 76000, "orders": 902, "conversionRate": 4.5, "cac": 41.18, "roas": 7.24 },
+        "affiliate": { "spend": 12000, "newCustomers": 120, "revenue": 27000, "orders": 320, "conversionRate": 2.4, "cac": 100.0, "roas": 2.25 }
+      }
+    },
+    {
+      "month": "2024-09",
+      "label": "September 2024",
+      "revenue": 630000,
+      "orders": 7320,
+      "conversionRate": 3.5,
+      "marketingSpend": 138000,
+      "averageOrderValue": 86.07,
+      "customerAcquisitionCost": 45.4,
+      "notes": "Back to school surge; AOV increased to $86.07.",
+      "channels": {
+        "organic_search": { "spend": 15000, "newCustomers": 930, "revenue": 188000, "orders": 2184, "conversionRate": 4.2, "cac": 16.13, "roas": 12.53 },
+        "paid_search": { "spend": 62000, "newCustomers": 1150, "revenue": 234000, "orders": 2719, "conversionRate": 3.9, "cac": 53.91, "roas": 3.77 },
+        "paid_social": { "spend": 39000, "newCustomers": 560, "revenue": 103000, "orders": 1197, "conversionRate": 2.4, "cac": 69.64, "roas": 2.64 },
+        "email_marketing": { "spend": 10000, "newCustomers": 270, "revenue": 77000, "orders": 895, "conversionRate": 4.6, "cac": 37.04, "roas": 7.7 },
+        "affiliate": { "spend": 12000, "newCustomers": 130, "revenue": 28000, "orders": 325, "conversionRate": 2.4, "cac": 92.31, "roas": 2.33 }
+      }
+    },
+    {
+      "month": "2024-10",
+      "label": "October 2024",
+      "revenue": 665000,
+      "orders": 7600,
+      "conversionRate": 3.6,
+      "marketingSpend": 144000,
+      "averageOrderValue": 87.5,
+      "customerAcquisitionCost": 44.86,
+      "notes": "Pre-holiday list building and catalog expansion.",
+      "channels": {
+        "organic_search": { "spend": 15000, "newCustomers": 960, "revenue": 196000, "orders": 2240, "conversionRate": 4.3, "cac": 15.63, "roas": 13.07 },
+        "paid_search": { "spend": 65000, "newCustomers": 1220, "revenue": 249000, "orders": 2846, "conversionRate": 4.0, "cac": 53.28, "roas": 3.83 },
+        "paid_social": { "spend": 42000, "newCustomers": 630, "revenue": 111000, "orders": 1269, "conversionRate": 2.5, "cac": 66.67, "roas": 2.64 },
+        "email_marketing": { "spend": 10000, "newCustomers": 260, "revenue": 79000, "orders": 903, "conversionRate": 4.7, "cac": 38.46, "roas": 7.9 },
+        "affiliate": { "spend": 12000, "newCustomers": 140, "revenue": 30000, "orders": 342, "conversionRate": 2.5, "cac": 85.71, "roas": 2.5 }
+      }
+    },
+    {
+      "month": "2024-11",
+      "label": "November 2024",
+      "revenue": 890000,
+      "orders": 9800,
+      "conversionRate": 4.4,
+      "marketingSpend": 195000,
+      "averageOrderValue": 90.82,
+      "customerAcquisitionCost": 43.14,
+      "notes": "Black Friday / Cyber Monday cyber sales wave.",
+      "channels": {
+        "organic_search": { "spend": 17000, "newCustomers": 1250, "revenue": 245000, "orders": 2698, "conversionRate": 5.1, "cac": 13.6, "roas": 14.41 },
+        "paid_search": { "spend": 88000, "newCustomers": 1750, "revenue": 348000, "orders": 3832, "conversionRate": 4.8, "cac": 50.29, "roas": 3.95 },
+        "paid_social": { "spend": 62000, "newCustomers": 1050, "revenue": 175000, "orders": 1927, "conversionRate": 3.3, "cac": 59.05, "roas": 2.82 },
+        "email_marketing": { "spend": 14000, "newCustomers": 320, "revenue": 85000, "orders": 936, "conversionRate": 5.2, "cac": 43.75, "roas": 6.07 },
+        "affiliate": { "spend": 14000, "newCustomers": 150, "revenue": 37000, "orders": 407, "conversionRate": 2.9, "cac": 93.33, "roas": 2.64 }
+      }
+    },
+    {
+      "month": "2024-12",
+      "label": "December 2024",
+      "revenue": 940000,
+      "orders": 10200,
+      "conversionRate": 4.5,
+      "marketingSpend": 208000,
+      "averageOrderValue": 92.16,
+      "customerAcquisitionCost": 44.83,
+      "notes": "Holiday gifting peak; record month for revenue and AOV.",
+      "channels": {
+        "organic_search": { "spend": 18000, "newCustomers": 1290, "revenue": 258000, "orders": 2799, "conversionRate": 5.2, "cac": 13.95, "roas": 14.33 },
+        "paid_search": { "spend": 94000, "newCustomers": 1820, "revenue": 366000, "orders": 3971, "conversionRate": 4.9, "cac": 51.65, "roas": 3.89 },
+        "paid_social": { "spend": 67000, "newCustomers": 1070, "revenue": 188000, "orders": 2040, "conversionRate": 3.4, "cac": 62.62, "roas": 2.81 },
+        "email_marketing": { "spend": 14000, "newCustomers": 310, "revenue": 89000, "orders": 966, "conversionRate": 5.3, "cac": 45.16, "roas": 6.36 },
+        "affiliate": { "spend": 15000, "newCustomers": 150, "revenue": 39000, "orders": 424, "conversionRate": 3.0, "cac": 100.0, "roas": 2.6 }
+      }
+    }
+  ]
+}
